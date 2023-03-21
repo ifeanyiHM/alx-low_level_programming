@@ -4,9 +4,9 @@
 */
 void print_alphabet(void)
 {
-	int j = 'a';
+	int j;
 
-	while (j < 'z')
+	for (j = 'a'; j <= 'z'; j++)
 
 	{
 		j++;
