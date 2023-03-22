@@ -8,5 +8,5 @@
 
 int _isalpha(int c)
 {
-	return (c != 1 || 0);
+	return (c != 1);
 }
