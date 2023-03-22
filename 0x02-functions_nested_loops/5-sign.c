@@ -2,7 +2,7 @@
 
 /**
 * print_sign -> print if n is greater than 0 or not
-* @n: the character for check
+* @n: the character for check.
 * Return: returns 1 or 0 or -1
 */
 
@@ -25,4 +25,6 @@ int print_sign(int n)
 		_putchar('-');
 		return(-1);
 	}
+
+	return (0);
 }
