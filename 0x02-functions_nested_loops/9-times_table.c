@@ -8,14 +8,14 @@
 void times_table(void)
 {
 	int i, j;
-	for (i = 48; i <= 57; i++)
+	for (i = '0'; i <= '9'; i++)
 	{
 
 	_putchar('\n');
 
-	for (j = 48; j <= 57; j++)
+	for (j = '0'; j <='9'; j++)
 	{
-		if ((i * j) <= 57)
+		if ((i * j) <= '9')
 		{
 			_putchar(32);
 			_putchar(32);
@@ -26,7 +26,7 @@ void times_table(void)
 		}
 
 		_putchar((i * j));
-		if (j < 57)
+		if (j < '9')
 		{
 			_putchar(44);
 		}
