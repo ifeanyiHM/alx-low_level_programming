@@ -17,12 +17,12 @@ void times_table(void)
 	{
 		if ((i * j) <= 57)
 		{
-			_putchar(20);
-			_putchar(20);
+			_putchar(32);
+			_putchar(32);
 		}
 		else
 		{
-			_putchar(20);
+			_putchar(32);
 		}
 
 		_putchar((i * j));
