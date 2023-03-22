@@ -15,6 +15,15 @@ void times_table(void)
 
 	for (j = 48; j <= 57; j++)
 	{
+		if ((i * j) <= 57)
+		{
+			_putchar(20);
+			_putchar(20);
+		}
+		else
+		{
+			_putchar(20);
+		}
 
 		_putchar((i * j));
 		if (j < 57)
