@@ -2,8 +2,8 @@
 #include <stdio.h>
 
 /**
-* print_to_98
-* Return: Always 0
+* print_to_98 -> prints form 0 to 98
+* @n: parameter
 */
 
 void print_to_98(int n)
