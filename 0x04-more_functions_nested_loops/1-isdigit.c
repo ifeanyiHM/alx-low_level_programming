@@ -6,7 +6,7 @@
 * Return: either 0 or 1
 */
 
-int _isdigit(int c);
+int _isdigit(int c)
 {
 	return (!(c >= 'a' && c <= 'z') || !(c >= 'A' && 'Z'));
 }
