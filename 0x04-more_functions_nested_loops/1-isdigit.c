@@ -8,5 +8,6 @@
 
 int _isdigit(int c)
 {
-	return (!(c >= 'a' && c <= 'z') || !(c >= 'A' && 'Z'));
+	/*return (!(c >= 'a' && c <= 'z') || !(c >= 'A' && 'Z'));*/
+	return (c >= 0 && c <= 9);
 }
