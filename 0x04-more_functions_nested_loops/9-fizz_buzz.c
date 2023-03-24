@@ -7,11 +7,10 @@
 
 int main(void)
 {
-	int n = 0;
+	int n;
 
-	while (n <= 100)
+	for (n = 1; n <= 100; n++)
 	{
-		n++;
 
 		if (n % (3 * 5) == 0)
 		{
