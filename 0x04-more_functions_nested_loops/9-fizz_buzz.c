@@ -14,7 +14,7 @@ int main(void)
 	{
 		n++;
 
-		if (n % (3 * 5) == 0)
+		if ((n % 3 == 0) && (n % 5 == 0))
 		{
 			printf("FizzBuzz");
 		}
