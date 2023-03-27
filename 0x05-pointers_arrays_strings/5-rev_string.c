@@ -11,6 +11,5 @@ void rev_string(char *s)
 	if (*s != '\0')
 	{
 		rev_string(s + 1);
-		_putchar(*s);
 	}
 }
