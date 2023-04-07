@@ -3,7 +3,7 @@
 /**
 * main - A function that the number of arguments passed into it.
 * @argc: parameter 1
-* @argc: parameter 2
+* @argv: parameter 2
 * Return: return empty
 */
 
