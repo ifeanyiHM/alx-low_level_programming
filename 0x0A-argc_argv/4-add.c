@@ -5,8 +5,8 @@
 
 /**
 * main - A function that adds positive numbers
-* @argc - parameter 1
-* @argv - parameter 2
+* @argc: - parameter 1
+* @argv: - parameter 2
 * Return: - Return empty
 */
 
