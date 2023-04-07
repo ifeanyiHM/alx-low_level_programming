@@ -19,13 +19,15 @@ int main(int argc, char *argv[])
 		s += atoi(argv[i]);
 		i++;
 	}
-	printf("%d\n", s);
+
 	if (!isdigit(argv[i]))
 	{
 		printf("Error\n");
 		return (1);
 	}
-
-	/*printf("%d\n", s);*/
+	else
+	{
+		printf("%d\n", s);
+	}
 	return (0);
 }
