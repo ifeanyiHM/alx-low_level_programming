@@ -20,11 +20,13 @@ int main(int argc, char *argv[])
 		i++;
 	}
 
-	/*if (!isdigit(argv[i]))
-	{
-		printf("Error\n");
-		return (1);
-	}*/
+	/*
+	* if (!isdigit(argv[i]))
+	* {
+	*	printf("Error\n");
+	*	return (1);
+	* }
+	*/
 
 	printf("%d\n", s);
 
