@@ -1,4 +1,5 @@
 #include "main.h"
+#include <string.h>
 
 /**
 * _strpbrk - A function
@@ -9,5 +10,5 @@
 
 char *_strpbrk(char *s, char *accept)
 {
-	return (s, accept);
+	return (strpbrk(s, accept));
 }

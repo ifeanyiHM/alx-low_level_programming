@@ -1,4 +1,5 @@
 #include "main.h"
+#include <string.h>
 
 /**
 * _strstr - A function
@@ -9,5 +10,5 @@
 
 char *_strstr(char *haystack, char *needle)
 {
-	return (haystack, needle);
+	return (strstr(haystack, needle));
 }

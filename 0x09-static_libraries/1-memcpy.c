@@ -1,5 +1,6 @@
 #include "main.h"
 #include <stddef.h>
+#include <string.h>
 
 /**
 * *_memcpy - A function that fills memory with a constant byte
@@ -12,5 +13,5 @@
 char *_memcpy(char *dest, char *src, unsigned int n)
 {
 	void *memcpy(void *dest, const void *src, size_t n);
-	return (dest, src);
+	return (memcpy(dest, src, n));
 }
