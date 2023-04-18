@@ -13,14 +13,12 @@
 
 void init_dog(struct dog *d, char *name, float age, char *owner)
 {
-	struct dog my_dog;
-	struct dog *d;
+	if (d == NULL)
+	{
+		d = malloc(sizeof(struct dog));
+	}
 
-	d = &my_dog;
-
-	d->name = "Poppy";
-	d->age = 3.5;
-	d->owner = "bob";
-
-	return (dog);
+	d->name = name;
+	d->age = age;
+	d->owner = owner;
 }
